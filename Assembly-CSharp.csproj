@@ -41,11 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Anim.cs" />
-     <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/Scripts/ScreenSpacePlacement.cs" />
+     <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Scripts/SkyboxCamera.cs" />
      <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs" />
      <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Scripts/AutoLoadPipelineAsset.cs" />
-     <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Scripts/SkyboxCamera.cs" />
+     <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/Scripts/ScreenSpacePlacement.cs" />
+     <Compile Include="Assets/Anim.cs" />
      <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/KeepFrameFeature.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
@@ -724,6 +724,9 @@
      <Reference Include="Unity.2D.PixelPerfect">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
      <Reference Include="PsdPlugin">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
      </Reference>
@@ -760,6 +763,9 @@
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Mathematics.Editor">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
@@ -777,6 +783,12 @@
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Editor">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -829,6 +841,9 @@
      <Reference Include="Unity.Burst">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -864,21 +879,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
-     <Reference Include="PPv2URPConverters">
-     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>/Users/timur.kozlov/my/uui/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
