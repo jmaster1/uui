@@ -49,7 +49,6 @@
      <Compile Include="Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/KeepFrameFeature.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets/Resources/ImageGlowShader.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
@@ -69,7 +68,6 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-     <None Include="Assets/Resources/NewUnlitShader.shader" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Reference Include="UnityEngine">

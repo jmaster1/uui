@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6edb055a-716a-4a99-9d59-b146b10929d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.uui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uui/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="6edb055a-716a-4a99-9d59-b146b10929d8" name="Changes" comment="URP" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674558095741</updated>
       <workItem from="1674558097712" duration="833000" />
-      <workItem from="1674559404837" duration="560000" />
+      <workItem from="1674559404837" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="LT examples rip">
       <created>1674558118458</created>
@@ -110,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674558851808</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="shadergraph">
+      <created>1674570172516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674570172516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="URP">
+      <created>1674570458670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674570458670</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,8 @@
     <MESSAGE value="LT examples rip" />
     <MESSAGE value="unversioned" />
     <MESSAGE value="frame fill" />
-    <option name="LAST_COMMIT_MESSAGE" value="frame fill" />
+    <MESSAGE value="shadergraph" />
+    <MESSAGE value="URP" />
+    <option name="LAST_COMMIT_MESSAGE" value="URP" />
   </component>
 </project>
